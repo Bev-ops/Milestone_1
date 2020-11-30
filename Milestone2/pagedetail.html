@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Page details</title>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="details.css">
+  <script src="https://kit.fontawesome.com/be2a2ae697.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <
+  <div class="container">
+  <div class="navbar">
+       <div class="logo">
+           <img src="../Milestone2/image2/Irenelogo.png"width="125px">
+      </div>
+    <nav>
+     <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cart.htmml">Cart</a></li>
+          <li><a href="pagedetail.html">Details</a></li>
+           <li><a href="products.html">Products</a></li>
+    </ul>
+    </nav>
+    <a href="cart.html"><img src="../Milestone2/image2/sp.png"width="30px"height="30px"></a>
+  </div>
+<!--------single product details----->
+<div class="small container single-products" id="product-img">
+  <div class="row">
+    <div class="col-2">
+      <img src="../Milestone2/image2/roller3.jpg"width="100%" class="small-img">
+      <div class="small-img-row">
+        <div class="small-img-col">
+          <img src="../Milestone2/image2/wheel6.jpg"width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="../Milestone2/image2/wheel7.jpg"width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="../Milestone2/image2/w8.jpg"width="100%" class="small-img">
+        </div><div class="small-img-col">
+          <img src="../Milestone2/image2/wheel4.jpg"width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="../Milestone2/image2/wheel5.jpg"width="100%" class="small-img">
+        </div>
+      </div>
+
+
+        </div>
+        <div class="col-2">
+          <p>Home / Roller wheel</p>
+          <h1>Durable and Comfortable Roller Wheel</h1>
+            <h4>$90.00</h4>
+            <select>
+              <option>Leikefit</option>
+              <option>Harisoon</option>
+              <option>Ab Maker</option>
+              <option>Kansoon</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="button">Add To Cart</a>
+
+            <h3>Product Details <i class="fa fa-heart-o"></i></h3>
+            <p>Perfect Home Fitness Device: High-Density Fitness Foam Knee pad is included for comfort workout at home. Strengthens and Tones your entire body by hitting your Abs, Core, Torso, Shoulders, Arms, Upper Back & Lower Back. Our ab roller is the ideal home gym equipmen</p>
+        </div>
+      </div>
+    </div>
+
+<!--------title------->
+      <div class="small-container">
+        <div class="row row-2">
+          <h2>Related Products</h2>
+          <p>View More</p>
+        </div>
+
+      </div>
+
+
+
+
+     <!--------featured categories-------->
+     <div class="small-container">
+     <div class="row">
+        <div class="col-4">
+          <img src="../Milestone2/image2/pull up bar.jpg"/>
+          <h4>pull up bar</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+          <p>$150.00</p>
+       </div>
+       <div class="col-4">
+         <img src="../Milestone2/image2/elliptical machine.jpg"/>
+         <h4>Elliptical machine</h4>
+         <div class="rating">
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star-o"></i>
+       </div>
+         <p>$100.00</p>
+      </div>
+      <div class="col-4">
+        <img src="../Milestone2/image2/roller wheel.jpg"/>
+        <h4>roller wheel</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+      </div>
+        <p>$200.00</p>
+     </div>
+     <div class="col-4">
+       <img src="../Milestone2/image2/smart fitness.jpg"/>
+       <h4>smart fitness</h4>
+       <div class="rating">
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-o"></i>
+     </div>
+       <p>$600.00</p>
+     </div>
+
+     </div>
+<!-----js for product gallery------>
+        <script>
+                var ProductImg = document.getElementById("ProductImg");
+                var SmallImg = document.getElementByClassName(""small-img);
+
+                SmallImg[0].onclick = function()
+                {
+                  ProductImg.src = SmallImg[0].src;
+                }
+                SmallImg[1].onclick = function()
+                {
+                  ProductImg.src = SmallImg[1].src;
+                }
+                SmallImg[2].onclick = function()
+                {
+                  ProductImg.src = SmallImg[2].src;
+                }
+                SmallImg[3].onclick = function()
+                {
+                  ProductImg.src = SmallImg[3].src;
+                }
+                 </script>
+
+                  </div>
+                </div>
+              </div>
+  </body>
+  </html>
